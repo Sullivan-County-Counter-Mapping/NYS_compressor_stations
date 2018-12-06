@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NYS Compressor Stations</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+
+     <!-- Load google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,600" rel="stylesheet">
+    
+    <!-- Load Leaflet CSS -->
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+
+    <!-- Load fonts for tool tip hover-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,600" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+
+    <!-- Load Leaflet and Carto libraries -->
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+    <script src="https://libs.cartocdn.com/carto.js/v4.1.8/carto.min.js"></script>
+   
+    <!-- Load our styles -->
+    <link href="./styles.css" rel="stylesheet">
+    <link href="https://carto.com/developers/carto-js/examples/maps/public/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="map">
+      
+    </div>
+
+ <aside class="toolbox">
+      <div class="box">
+        <header>
+          <h1>New York State Compressor Stations</h1>
+        </header>
+        <section>
+          <div class="separator"></div>
+          <div id="controls">
+            <div id="info"></div>
+          </div>
+        </section>
+        <footer class="js-footer"></footer>
+      </div>
+    </aside>
+
+    <!-- Load our JavaScript -->
+    <script src="./script.js"></script>
+
+  </body>
+</html>
+
+
+

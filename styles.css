@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.tool-tip { 
+  position:absolute; 
+  z-index: 1000; 
+  width: auto; 
+  height: 20px;
+  background: white;
+  padding: 2px 5px;
+  margin: 0;
+  display: none; 
+    }
+    
+.tool-tip p {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+    }
